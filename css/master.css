@@ -1,0 +1,65 @@
+
+body{
+  margin: 2rem 4rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+h1{
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 36px;
+  color: #F7736F;
+  border-bottom: solid 2px #FDB8B6;
+  margin-bottom: 2px;
+
+}
+strong{
+  color: #F7736F;
+  font-weight: bold;
+}
+.title{
+  width: 20rem;
+  border-bottom: solid 2px #FDB8B6;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+.cv-link {
+  font-family: 'Inknut Antiqua', serif;
+  color: #F7736F;
+  text-decoration: ;
+  transition: .1s;
+}
+.cv-link:hover{
+  color: #736FAA;
+}
+
+.cv-link,a:visited{
+  color: #F7736F;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 2px #F7736F;
+  transition: .4s;
+}
+.link:hover{
+  border-bottom-width: 4px;
+  border-color: #736FAA;
+  color: #736FAA;
+}
+footer{
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 14px;
+  color: #F7736F;
+}
+/* animation */
+@keyframes fade-in {
+    from {opacity: 0; transform: translateY(200px);}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1s;
+}
+.effect {
+  opacity: 0;
+}
