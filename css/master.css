@@ -18,16 +18,19 @@ strong{
   color: #F7736F;
   font-weight: bold;
 }
+header{
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .title{
   width: 20rem;
   border-bottom: solid 2px #FDB8B6;
-  background-color: rgba(255, 255, 255, 0.5)
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .cv-link {
   font-family: 'Inknut Antiqua', serif;
   color: #F7736F;
   text-decoration: ;
-  transition: .1s;
+  transition: .3s;
 }
 .cv-link:hover{
   color: #736FAA;
