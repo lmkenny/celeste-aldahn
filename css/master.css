@@ -1,6 +1,6 @@
 
 body{
-  margin: 2rem 4rem;
+  margin: 0 4rem 2rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -12,19 +12,33 @@ h1{
   color: #F7736F;
   border-bottom: solid 2px #FDB8B6;
   margin-bottom: 2px;
+}
+h2{
+  color: #F7736F;
+}
+h3{
+  color: #F7736F;
 
+}
+h4{
+  color: #F7736F;
+  font-weight: 300;
+  font-size: 20px;
 }
 strong{
   color: #F7736F;
   font-weight: bold;
 }
 header{
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .title{
   width: 20rem;
   border-bottom: solid 2px #FDB8B6;
-  background-color: rgba(255, 255, 255, 0.6);
+  /* background-color: rgba(255, 255, 255, 0.6); */
+}
+.title>a{
+  text-decoration: none;
 }
 .cv-link {
   font-family: 'Inknut Antiqua', serif;
@@ -54,6 +68,21 @@ footer{
   font-family: 'Inknut Antiqua', serif;
   font-size: 14px;
   color: #F7736F;
+}
+.divider{
+  border-bottom: solid 2px #FDB8B6;
+}
+/* list styling */
+ul {
+list-style: none
+}
+li::before {
+  content: "•";
+  color: #F7736F;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 1.4rem;
 }
 /* animation */
 @keyframes fade-in {
