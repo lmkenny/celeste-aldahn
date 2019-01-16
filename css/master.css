@@ -1,6 +1,5 @@
 
 body{
-  margin: 0 4rem 2rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -8,7 +7,7 @@ body{
 }
 h1{
   font-family: 'Inknut Antiqua', serif;
-  font-size: 36px;
+  font-size: 28px;
   color: #F7736F;
   border-bottom: solid 2px #FDB8B6;
   margin-bottom: 2px;
@@ -23,7 +22,7 @@ h3{
 h4{
   color: #F7736F;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
 }
 strong{
   color: #F7736F;
@@ -33,7 +32,7 @@ header{
   background-color: rgba(255, 255, 255, 0.7);
 }
 .title{
-  width: 20rem;
+  width: 16rem;
   border-bottom: solid 2px #FDB8B6;
   /* background-color: rgba(255, 255, 255, 0.6); */
 }
@@ -94,4 +93,15 @@ li::before {
 }
 .effect {
   opacity: 0;
+}
+@media (min-width: 768px) {
+  .title{
+    width: 20rem;
+  }
+  h1{
+    font-size: 36px;
+  }
+  h4{
+    font-size: 20px;
+  }
 }
