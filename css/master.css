@@ -1,6 +1,6 @@
 
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Halant', serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
@@ -30,6 +30,11 @@ strong{
 }
 header{
   background-color: rgba(255, 255, 255, 0.7);
+}
+.caption{
+  font-size: 14px;
+  text-align: center;
+  color: grey;
 }
 .title{
   width: 16rem;
@@ -70,6 +75,9 @@ footer{
 }
 .divider{
   border-bottom: solid 2px #FDB8B6;
+}
+.top-150{
+  top: 150px;
 }
 /* list styling */
 ul {
